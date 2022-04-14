@@ -104,10 +104,7 @@ function get_input(ID) {
     host = document.getElementById('host').value;
     org = document.getElementById("org").value;
     new_val = document.getElementById("new").value;
-    document.getElementById('host').value = "";
-    document.getElementById("org").value = "";
-    document.getElementById("new").value = "";
-
+  
 
 
     console.log(org);
