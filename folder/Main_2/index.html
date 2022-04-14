@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="nav.css">
+
+
+
+</head>
+
+<body>
+
+
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#"><img src="main/shuffle.png" height="45px" width="45px"></a>
+            </li>
+            <li class="nav-item">
+                <a href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Tools</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Contact Me</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn-primary">Donate</button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="center">
+        <h1>11.6.6</h1>
+        <form method="post" action="#" class="btn1" onsubmit="event.preventDefault(); validateMyForm();">
+            <input id="host" value="Host IP Address">
+            <input id="org" value="Original Subnet Mask">
+            <input id="new" value="New Subnet Mask">
+
+            <button id="submit-btn" type="button" onclick="get_input('demo')">Submit</button>
+        </form>
+        <p id="demo"></p>
+    </div>
+
+</body>
+
+</html>
