@@ -83,7 +83,7 @@ function solve(host_ip, org_mask, new_mask, id) {
     document.getElementById(id).innerHTML += "Number of Subnet Bits: " + sub + "<br>";
     document.getElementById(id).innerHTML += "Number of Subnets Created: " + 2 ** sub + "<br>";
     document.getElementById(id).innerHTML += "Number of Host Bits per Subnet: " + host + "<br>";
-    document.getElementById(id).innerHTML += "Number of Hosts per Subnet: " + 2 ** host + "<br>";
+    document.getElementById(id).innerHTML += "Number of Hosts per Subnet: " + (2 ** host) - 2 + "<br>";
 
     document.getElementById(id).innerHTML += "Network Address: " + bin_to_ip(network_address) + "<br>";
     document.getElementById(id).innerHTML += "First Host Address: " + bin_to_ip(first_address) + "<br>";
