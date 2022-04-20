@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>YouHeal</title>
+    <link rel="stylesheet" href="Options.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="output.js"></script>
+
+</head>
+
+<body>
+    <!-- action="../Record/db_conn.php" -->
+
+    <div class="center">
+        <h1>Medicine Records</h1>
+        <div class="patient">
+            <form class="btn1" action="../Drugs/db_conn.php">
+                <label for="ID">Medicine ID:</label>
+                <input type="text" id="ID" name="ID"><br><br>
+                <input class="Search" type="submit" value="Search">
+            </form>
+        </div>
+
+        <div class="Patient_info">
+            <table>
+                <tr>
+                    <th>ID </th>
+                    <th>Name </th>
+                    <th>Price </th>
+                    <th>Expiration Date </th>
+                    <th>Available Quantity</th>
+                    <th>Manufacturer</th>
+                </tr>
+
+
+
+                <tr>
+                    <td id="pat1">2121</td>
+                    <td id="pat2">Panadol</td>
+                    <td id="pat3">100</td>
+                    <td id="pat4">03/2/2030</td>
+                    <td id="pat5">100</td>
+                    <td id="pat6">Random company</td>
+                </tr>
+
+
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

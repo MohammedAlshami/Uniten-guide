@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>YouHeal</title>
+    <link rel="stylesheet" href="Options.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="output.js"></script>
+
+</head>
+
+<body>
+    <!-- action="../Record/db_conn.php" -->
+    <div class="center">
+        <h1>Doctors Records</h1>
+        <div class="patient">
+            <form class="btn1" action="../Doc_record/db_conn.php">
+                <label for="ID">Doctor ID:</label>
+                <input type="text" id="ID" name="ID"><br><br>
+                <input class="Search" type="submit" value="Search">
+            </form>
+        </div>
+        <div class="Patient_info">
+            <table>
+                <tr>
+                    <th>ID: </th>
+                    <th>Name: </th>
+                    <th>Date of birth: </th>
+                    <th>Phone number: </th>
+                    <th>Address: </th>
+                </tr>
+                <tr>
+                    <td id="pat1">1</td>
+                    <td id="pat2">sh</td>
+                    <td id="pat3">02/07/2002</td>
+                    <td id="pat5">01164504470</td>
+                    <td id="pat6">Address: Cendekiawan Apartment, Persiaran Cendekiawan,<br> 43009 Kajang, Selangor</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
